@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="7D`dU6X}i{:PKv82/g+G">Player</variable><variable type="KIND_SpriteKind" id="!XtinQ2k?bVZ.s._6Laf">Projectile</variable><variable type="KIND_SpriteKind" id="jrQ#cY@6Iv.#A,`SZxha">Food</variable><variable type="KIND_SpriteKind" id="gk$8UU:XVgzV(Mhoe7,5">Enemy</variable></variables><block type="pxt-on-start" id="tb_~EU^/CW]==RAc9ULf" x="0" y="0"></block><block type="gameupdate" id="7tKmtivp(*kw@/k5lg;t" x="166" y="0"></block><block type="game_dialog_set_text_color" id="56=16.}0Oq=!2ibEOOj5" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="1" y="116"><value name="color"><shadow type="colorindexpicker" id="z4r[@q7q^-bx2:b7^Wc8" disabled-reasons="MANUALLY_DISABLED"><field name="index">2</field></shadow></value><next><block type="mp_setPlayerSprite" id="[Cm@(u+Iv9Xl:x?U^iOY" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED"><value name="player"><shadow type="mp_playerSelector" id="K+2N3VhIrdT=xWGWo1Xo" disabled-reasons="MANUALLY_DISABLED"><field name="number">mp.PlayerNumber.One</field></shadow></value><value name="sprite"><shadow type="spritescreatenoset" id="P}7=Oz}=e?,RsPKg,ll=" disabled-reasons="MANUALLY_DISABLED"><value name="img"><shadow type="screen_image_picker" id="@RDN`0+_[Yc_nxjQ}{:c" disabled-reasons="MANUALLY_DISABLED"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=")nM,PWG]rTQ.NC3!@is$" disabled-reasons="MANUALLY_DISABLED"><field name="MEMBER">Player</field></shadow></value></shadow><block type="spritescreatenoset" id="{rOCZ39fS(ggC3Wbnph," disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED"><value name="img"><shadow type="screen_image_picker" id="e+jr?q(gGJZ+9aZs4N%9" disabled-reasons="MANUALLY_DISABLED"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow><block type="gamebackgroundimage" id="mRa~^3Wcs-{v-rQ2l:I6" disabled-reasons="MANUALLY_DISABLED"></block></value><value name="kind"><shadow type="spritekind" id="9QD$]_kX.bJ2udz=%#8[" disabled-reasons="MANUALLY_DISABLED"><field name="MEMBER">Food</field></shadow></value></block></value><next><block type="music_playable_play" id="I{Wj]gU2T?/xV^h0g(J:" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_song_field_editor" id="/+3-~K5{md}_FjQjSQ`I" disabled-reasons="MANUALLY_DISABLED"><field name="song">hex`00780004080200`</field><data>{"commentRefs":[],"fieldData":{"song":null}}</data></shadow></value></block></next></block></next></block></xml>
